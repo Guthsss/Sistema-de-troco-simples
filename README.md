@@ -6,13 +6,13 @@ Portugol Studio
     
         real valorTotal, valorPago, troco
 
-        escreva("Digite o valor total da compra ")
+        escreva("Digite o valor total da compra: ")
         leia(valorTotal)
 
-        escreva("Digite o valor pago pelo cliente ")
+        escreva("Digite o valor pago pelo cliente: ")
         leia(valorPago)
 
-        troco= valorTotal-valorPago
+        troco= valorTotal - valorPago
         escreva(troco)
     
      }
